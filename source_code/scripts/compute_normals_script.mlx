@@ -1,0 +1,17 @@
+<!DOCTYPE FilterScript>
+
+<!-- 
+
+ PLYMesher Compute Normals Meshlabserver script 
+ by Andrew Hazelden  andrewhazelden@gmail.com
+
+-->
+
+
+<FilterScript>
+ <filter name="Compute normals for point sets">
+  <Param type="RichInt" value="10" name="K"/>
+  <Param type="RichBool" value="false" name="flipFlag"/>
+  <Param x="0" y="0" z="0" type="RichPoint3f" name="viewPos"/>
+ </filter>
+</FilterScript>
