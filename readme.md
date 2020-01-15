@@ -1,7 +1,7 @@
-#Andrew Hazelden's PLYmesher Scripts
+# Andrew Hazelden's PLYmesher Scripts
 Version 1.1 Jan 26, 2013
 
-##About the PLYmesher Script Collection
+## About the PLYmesher Script Collection
 PLYmesher is a collection of bash scripts and MeshLab .mlx filter scripts that are used to create possion based reconstructions of .PLY formatted point clouds.
 
 ## About the Replace MLX Value Script
@@ -13,7 +13,7 @@ Tip: Enter the script name and values at the command-line:
 `./replace_mlx_value.sh [mlx_script_template] [number] [number] [number]`
 
 
-##PLYmesher Notes:
+## PLYmesher Notes:
 I have started exploring the commandline version of meshlab called meshlabserver. You can run scripts by saving the meshlab filter settings to a meshlab .mlx script file.
 
 You can easily develop and save new MLX scripts using the meshlab gui.
@@ -41,7 +41,6 @@ This meshlab script will generate point cloud normals, reduce the point cloud de
 
 The meshlabserver command "Transfer Color: Vertex to Face" seems to have a problem running on the Mac version of meshlabserver so I left out this last step in the script:  
 `<filter name="Transfer Color: Vertex to Face" />`
-
 
 
 Notes:
